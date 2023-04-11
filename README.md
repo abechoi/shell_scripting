@@ -4,7 +4,7 @@
 
 1. Create file `vim textfile.txt`
 
-    a. Type `i` to enter `Insert` mode__
+    a. Type `i` to enter `Insert` mode <br />
     b. Enter `Hello World!`
     c. Hit `esc`, then enter `:qw` to write and quit
     d. Output file `cat textfile.txt`
