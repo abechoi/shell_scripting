@@ -3,6 +3,7 @@
 ## Create Text File
 
 1. Create file `vim textfile.txt`
+
     a. Type `i` to enter `Insert` mode
     b. Enter `Hello World!`
     c. Hit `esc`, then enter `:qw` to write and quit
@@ -12,6 +13,7 @@
 ## Hello World
 
 2. Create file `vim shellscript.sh`
+
     a. Type `a` to enter `Append` mode, which outputs character after cursor
     b. Enter `echo Hello World!`
     c. Hit `esc`, then enter `:qw` to write and quit
@@ -57,8 +59,8 @@ cp "$MY_LOCATION_FROM" "$MY_LOCATION_TO"
     echo Hello $FIRST_NAME $LAST_NAME
     ```
     
-    1. modify permissions `chmod u+x hellothere.sh`
-    2. Run script `./hellothere.sh`
+    a. modify permissions `chmod u+x hellothere.sh`
+    b. Run script `./hellothere.sh`
     
 
 ## Arguments
@@ -76,8 +78,8 @@ cp "$MY_LOCATION_FROM" "$MY_LOCATION_TO"
     echo Hello $FIRST_NAME $LAST_NAME
     ```
     
-    1. modify permissions `chmod u+x interactive.sh`
-    2. Run script `./interactive.sh`
+    a. modify permissions `chmod u+x interactive.sh`
+    b. Run script `./interactive.sh`
 
 6. Create file `vim posargs.sh`
     
@@ -87,5 +89,5 @@ cp "$MY_LOCATION_FROM" "$MY_LOCATION_TO"
     echo Hello $1 $2
     ```
     
-    1. modify permissions `chmod u+x posargs.sh`
-    2. Run script `./posargs.sh [ARG 1] [ARG 2]`
+    a. modify permissions `chmod u+x posargs.sh`
+    b. Run script `./posargs.sh [ARG 1] [ARG 2]`
