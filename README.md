@@ -3,31 +3,31 @@
 ## Create Text File
 
 1. Create file `vim textfile.txt`
-    1. Type `i` to enter `Insert` mode
-    2. Enter `Hello World!`
-    3. Hit `esc`, then enter `:qw` to write and quit
-    4. Output file `cat textfile.txt`
+    a. Type `i` to enter `Insert` mode
+    b. Enter `Hello World!`
+    c. Hit `esc`, then enter `:qw` to write and quit
+    d. Output file `cat textfile.txt`
     
 
 ## Hello World
 
-1. Create file `vim shellscript.sh`
-    1. Type `a` to enter `Append` mode, which outputs character after cursor
-    2. Enter `echo Hello World!`
-    3. Hit `esc`, then enter `:qw` to write and quit
-    4. Run script `zsh [shelltest.sh](http://shelltest.sh)` or `bash shelltest.sh`
+2. Create file `vim shellscript.sh`
+    a. Type `a` to enter `Append` mode, which outputs character after cursor
+    b. Enter `echo Hello World!`
+    c. Hit `esc`, then enter `:qw` to write and quit
+    d. Run script `zsh [shelltest.sh](http://shelltest.sh)` or `bash shelltest.sh`
 
 ## Run Script without ZSH or BASH Command
 
-1. Modify file `vim shellscript.sh`
+3. Modify file `vim shellscript.sh`
     
     ```bash
     #!/bin/zsh
     echo Hello World!
     ```
     
-    1. modify permissions `chmod u+x shellscript.sh`
-    2. Run script `./shellscript.sh`
+    a. modify permissions `chmod u+x shellscript.sh`
+    b. Run script `./shellscript.sh`
 
 ## Variables
 
@@ -47,7 +47,7 @@ cp $MY_LOCATION_FROM $MY_LOCATION_TO
 cp "$MY_LOCATION_FROM" "$MY_LOCATION_TO"
 ```
 
-1. Create file `vim hellothere.sh`
+4. Create file `vim hellothere.sh`
     
     ```bash
     #!/bin/zsh
@@ -63,7 +63,7 @@ cp "$MY_LOCATION_FROM" "$MY_LOCATION_TO"
 
 ## Arguments
 
-1. Create file `vim interactive.sh`
+5. Create file `vim interactive.sh`
     
     ```bash
     #!/bin/zsh
@@ -79,7 +79,7 @@ cp "$MY_LOCATION_FROM" "$MY_LOCATION_TO"
     1. modify permissions `chmod u+x interactive.sh`
     2. Run script `./interactive.sh`
 
-1. Create file `vim posargs.sh`
+6. Create file `vim posargs.sh`
     
     ```bash
     #!/bin/zsh
