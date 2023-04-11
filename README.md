@@ -5,8 +5,8 @@
 1. Create file `vim textfile.txt`
 
     a. Type `i` to enter `Insert` mode <br />
-    b. Enter `Hello World!`
-    c. Hit `esc`, then enter `:qw` to write and quit
+    b. Enter `Hello World!` <br />
+    c. Hit `esc`, then enter `:qw` to write and quit <br />
     d. Output file `cat textfile.txt`
     
 
@@ -14,9 +14,9 @@
 
 2. Create file `vim shellscript.sh`
 
-    a. Type `a` to enter `Append` mode, which outputs character after cursor
-    b. Enter `echo Hello World!`
-    c. Hit `esc`, then enter `:qw` to write and quit
+    a. Type `a` to enter `Append` mode, which outputs character after cursor <br />
+    b. Enter `echo Hello World!` <br />
+    c. Hit `esc`, then enter `:qw` to write and quit <br />
     d. Run script `zsh [shelltest.sh](http://shelltest.sh)` or `bash shelltest.sh`
 
 ## Run Script without ZSH or BASH Command
